@@ -63,6 +63,14 @@ namespace TommyRathore
                myMap.MapElements.Add(myPOI);
                myMap.Center = myPoint;
                myMap.ZoomLevel = 10;
+               
+               
+               //PushPin
+               
+               //var myPoint = new Geopoint(new BasicGeoposition { Latitude = latitude, Longitude = longitude });
+               //MapIcon myPOI = new MapIcon { Location = myPoint, NormalizedAnchorPoint = new Point(0.5, 1.0), Title = "Nandos", ZIndex = 0 };
+               //myMap.MapElements.Add(myPOI);
+
 
           }
 
